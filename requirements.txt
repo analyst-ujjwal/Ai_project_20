@@ -1,0 +1,16 @@
+fastapi==0.100.0
+uvicorn==0.22.0
+streamlit==1.26.0
+pillow==9.5.0
+numpy==1.26.0
+opencv-python==4.8.1.78
+# For diffusion (optional; only required if using Hugging Face diffusers)
+transformers==4.41.0
+diffusers==0.21.2
+accelerate==0.23.0
+safetensors==0.4.1
+torch>=2.0.0
+# Small NLP
+sentence-transformers==2.2.2
+# Utilities
+tqdm==4.66.1

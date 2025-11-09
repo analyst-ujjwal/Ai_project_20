@@ -1,0 +1,106 @@
+# ============================================================
+# 🧠 AI Logo Generator — Git Ignore File
+# Prevents large model files, private keys, and cache data
+# ============================================================
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+
+# ----------------------------
+# Virtual Environment
+# ----------------------------
+venv/
+env/
+ENV/
+.venv/
+*.envrc
+
+# ----------------------------
+# macOS
+# ----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ----------------------------
+# Logs and Cache
+# ----------------------------
+*.log
+logs/
+tmp/
+temp/
+.cache/
+__cache__/
+.ipynb_checkpoints/
+
+# Hugging Face + Diffusers cache
+~/.cache/huggingface/
+~/.huggingface/
+~/.cache/diffusers/
+~/.cache/torch/
+
+# ----------------------------
+# Model directories
+# ----------------------------
+models/
+checkpoints/
+outputs/
+*.safetensors
+*.ckpt
+
+# ----------------------------
+# Streamlit
+# ----------------------------
+.streamlit/
+.streamlit/secrets.toml
+
+# ----------------------------
+# Environment & API Keys
+# ----------------------------
+.env
+.env.local
+.env.production
+.env.development
+
+# ----------------------------
+# IDE and OS Files
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+Thumbs.db
+
+# ----------------------------
+# Jupyter & Experimental
+# ----------------------------
+.ipynb_checkpoints
+*.ipynb
+
+# ----------------------------
+# Auto-generated images / exports
+# ----------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+*.avi
